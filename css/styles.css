@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'Merriweather', sans-serif;
+}
+
+header {
+  text-align: center;
+	background: #304359;
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+  font-size: 10px;
+}
+
+p {
+	width: 90%;
+	text-align: center;
+}
+
+h1 {
+  color: #304359;
+  font-size: 1em;
+}
+
+h3 {
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: .8em;
+  text-align: left;
+  color: slategrey;
+  padding-bottom: 10px;
+}
+
+input{
+  background: #f7f4f4;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  color: #ccc;
+}
+
+select {
+  background: #f7f4f4;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ccc;
+}
+
+textarea {
+  background: #f7f4f4;
+  border-style: none;
+}
+
+button {
+  background: #00CED1;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-style: none;
+  color: white;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: auto;
+}
+
+.newsletter {
+	max-width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+  border-top: 2px solid #304359;
+}
+
+.newsletter p {
+  text-align: left;
+  font-size: .8em;
+  color: slategrey;
+}
+
+
+
+.label {
+	display: flex;
+	flex-direction: column;
+}
+
+.label-zip {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+  margin-right: 10px;
+}
+
+input:checked {
+  background-color: #2196F3;
+}
+
+input::placeholder {
+    font-style: italic;
+    padding-right: 10px;
+    text-align: right;
+    font-size: .8em;
+    color: #ddd;
+}
+
+input:focus {
+  outline: none !important;
+  border-style: solid;
+  border-color: #304359;
+  border-radius: 3px;
+}
+
+select:focus,
+textarea:focus {
+  outline: none !important;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #304359;
+  border-radius: 3px;
+}
+
+.title p {
+  font-size: .7em;
+  padding-bottom: 5px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: darkgrey;
+}
+
+.title {
+  text-align: center;
+  border-bottom: 3px solid #304359;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+.contact {
+  border-top: 2px solid #304359;
+  width: 90%;
+  margin: auto;
+}
+
+.checkbox,
+.radio {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+footer p {
+  text-align: center;
+  margin: auto;
+  opacity: 0.5;
+  font-size: 0.7em;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+#zip {
+  width: 150px;
+}
+
+.label-zip input {
+    flex-basis: 75%
+}
+
+@media (min-width: 768px) {
+	.contact,
+	.newsletter {
+		width: 60%;
+		margin: auto;
+	}
+
+	.label {
+		display: flex;
+	  flex-direction: row;
+	  justify-content: space-between;
+	}
+
+  .label-zip {
+    display: flex;
+	  flex-direction: row;
+	  justify-content: flex-start;
+	}
+
+	.label label {
+		flex-basis: 25%;
+	}
+
+	.label input,
+	.label select {
+		flex-basis: 75%;
+	}
+
+  .label-zip label {
+    flex-basis: 25%;
+  }
+
+  .label-zip input {
+      flex-basis: 75%
+  }
+
+	.newsletter p {
+		text-align: left;
+		margin: 0;
+	}
+
+  .title {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  .checkbox,
+  .radio {
+    padding-top: 15px;
+    padding-bottom: 25px;
+  }
+
+
+  #zip {
+    flex-basis: 5%;
+  }
+
+  textarea {
+    margin-top: 15px;
+  }
+
+  label {
+    padding-top: 10px;
+  }
