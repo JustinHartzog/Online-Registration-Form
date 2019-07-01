@@ -21,7 +21,7 @@ p {
 	text-align: center;
 }
 
-legend {
+h1 {
   color: #304359;
   font-size: 1em;
   margin-block-start: 0.67em;
@@ -32,10 +32,20 @@ legend {
   margin: 0.67em 0;
 }
 
-h3 {
+#news-legend {
   font-size: 1em;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#contact-legend {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 label {
@@ -75,6 +85,12 @@ button {
   color: white;
   margin-top: 10px;
   border-radius: 5px;
+}
+
+fieldset {
+  border-style: none;
+  margin: auto;
+  padding: inherit;
 }
 
 

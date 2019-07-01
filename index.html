@@ -11,14 +11,14 @@
     <header>
       <h2>THE CODE REVIEW</h2>
     </header>
-    <fieldset>
     <div class="title">
-      <legend>Signup for our newsletter</legend>
+      <h1>Signup for our newsletter</h1>
       <p>Get the latest news on how your code is doing right in your inbox</p>
     </div>
     <form action="/my-handling-form-page" method="post">
+      <fieldset>
       <div class="contact">
-        <h3>Contact Information</h3>
+        <legend id="contact-legend">Contact Information</legend>
         <div class="label">
           <label for="fullname">Full Name</label>
           <input type="text" name="fullname" id="fullname" placeholder="Required"/>
@@ -101,8 +101,10 @@
           <input type="text" name="zip" id="zip">
         </div><br/>
       </div>
+      </fieldset>
+      <fieldset>
       <div class="newsletter">
-        <h3>Newsletter</h3>
+        <legend id="news-legend">Newsletter</legend>
         <p>select the newsletters you would like to recieve</p>
         <div class="checkbox">
           <label><input type="checkbox" name="htmlnews">HTML News</label><br/>
