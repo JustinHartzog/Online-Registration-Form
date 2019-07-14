@@ -24,10 +24,6 @@ p {
 h1 {
   color: #304359;
   font-size: 1em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
   margin: 0.67em 0;
 }
@@ -41,10 +37,6 @@ h1 {
 #contact-legend {
   display: block;
   font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -91,6 +83,7 @@ fieldset {
   border-style: none;
   margin: auto;
   padding: inherit;
+  Width: 100%;
 }
 
 
@@ -272,3 +265,4 @@ footer p {
   label {
     padding-top: 10px;
   }
+}
